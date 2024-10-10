@@ -221,15 +221,18 @@ main {
   margin-top: 15px;
 }
 
-.my-inspiration .inspiration-video-container {
+.inspiration-video-container {
   width: 1140px;
-  height: 775px;
-  padding: 32px;
+  
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  margin-top: 40px;
 }
 
 .video iframe {
   border-radius: 16px;
-  margin-top: 48px;
+  width: 100%;
 }
 /* My inspiration section styles end */
 
@@ -393,5 +396,28 @@ main {
 /* I need support section styles end */
 
 /* Footer section styles start */
+.footer-section {
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px 150px;
+}
 
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 300px;
+}
+
+.content-section p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 /* Footer section styles end */
