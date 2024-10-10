@@ -232,6 +232,8 @@ main {
   margin-top: 48px;
 }
 /* My inspiration section styles end */
+
+/* My Current Target section styles start */
 .current-target-container {
   margin-top: 120px;
 }
@@ -317,12 +319,77 @@ main {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
 }
-/* My Current Target section styles start */
-
 /* My Current Target section styles end */
 
 /* I need support section styles start */
+.support-container {
+  margin: 120px auto;
+  width: 1140px;
+  padding: 48px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(/assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  border-radius: 16px;
+}
 
+.content h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.content p {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.input-section #input {
+  display: flex;
+  width: 480px;
+  padding: 19px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+}
+
+.input-section #input2 {
+  display: flex;
+  width: 120px;
+  padding: 17px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  color: #0d1321;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
 /* I need support section styles end */
 
 /* Footer section styles start */
